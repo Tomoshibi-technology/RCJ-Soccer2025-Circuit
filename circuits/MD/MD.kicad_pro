@@ -319,6 +319,18 @@
     [
       "57d2d424-1ba5-403e-af02-1d84887264d0",
       "MotorDriver"
+    ],
+    [
+      "cea401a9-4dfa-43b4-9fad-ad91cc7feb5a",
+      "RS485"
+    ],
+    [
+      "6f61345a-e572-46d1-ba3f-ade17d0e061b",
+      "Encoder"
+    ],
+    [
+      "95721a70-6e46-4ff1-892b-e4afe28b54e0",
+      "UI"
     ]
   ],
   "text_variables": {}
