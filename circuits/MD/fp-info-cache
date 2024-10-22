@@ -1,271 +1,278 @@
-66053160063223
-MyLibraries
+67784861541400
+MyLibrary
 Audio_DFPlayerMini
 
 
 0
 16
 16
-MyLibraries
+MyLibrary
 BoxHeader_2x05_P1.27mm_Horizontal
 Through hole angled pin header, 2x05, 1.27mm pitch, 4.0mm pin length, double rows
 Through hole angled pin header THT 2x05 1.27mm double row
 0
 10
 10
-MyLibraries
+MyLibrary
 BoxHeader_2x05_P1.27mm_Vertical_SMD
 surface-mounted straight pin header, 2x05, 1.27mm pitch, double rows
 Surface mounted pin header SMD 2x05 1.27mm double row
 0
 10
 10
-MyLibraries
+MyLibrary
 Connector_USB_Aktk_USB-C_Simple
 
 
 0
 11
 7
-MyLibraries
+MyLibrary
 DCDC_Aktk_MYMGK00506E
 
 
 0
 12
 12
-MyLibraries
+MyLibrary
 DCDC_BP5293
 
 
 0
 3
 3
-MyLibraries
+MyLibrary
 DCDC_MPM3620A
 MPM3620AGQV-P-1
 Integrated Circuit
 0
-20
 14
-MyLibraries
+14
+MyLibrary
 DCDC_OKL-T-6-W12N-C
 Non-Isolated PoL Module DC DC Converter 1 Output 0.591 ~ 5.5V - - 6A 4.5V - 14V Input
 
 0
 12
 12
-MyLibraries
+MyLibrary
 DCDC_VXO78-500
 
 
 0
 3
 3
-MyLibraries
+MyLibrary
 Diode_DO-221BC
 SMPA (DO-221BC)
 Schottky Diode
 0
 2
 2
-MyLibraries
+MyLibrary
 Diode_MBR120_SOD-123
 SOD-123
 SOD-123
 0
 2
 2
-MyLibraries
+MyLibrary
 Display_Aktk_128x68OLED_White
 
 
 0
 4
 4
-MyLibraries
+MyLibrary
 Driver_FETGate_DRV8323S
 
 DRV8323HRTAR 
 0
 41
 41
-MyLibraries
+MyLibrary
 Inductor_CDPH4D19F
 CDPH4D19FNP-220MC-1
 Inductor
 0
 2
 2
-MyLibraries
+MyLibrary
 Inductor_ETQ-P4M_KVK
 ETQ-P4M_KVK
 Inductor
 0
 2
 2
-MyLibraries
+MyLibrary
 Interface_USB_CH340K
 
 
 0
 11
 11
-MyLibraries
+MyLibrary
 MCU_ESP32-WROOM-32
 Single 2.4 GHz Wi-Fi and Bluetooth combo chip https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf
 Single 2.4 GHz Wi-Fi and Bluetooth combo  chip
 0
 39
 39
-MyLibraries
+MyLibrary
 MCU_RPi-Pico_SMD_TH
 Through hole straight pin header, 2x20, 2.54mm pitch, double rows
 Through hole pin header THT 2x20 2.54mm double row
 0
 86
 43
-MyLibraries
+MyLibrary
 Mic_Aktk_MICAMP
 
 
 0
 3
 3
-MyLibraries
+MyLibrary
 Mic_XCM6035
 
 
 0
 2
 2
-MyLibraries
+MyLibrary
 NeoPixel_WS2812C-2020-V1
 
 
 0
 4
 4
-MyLibraries
+MyLibrary
 Package_SOP-Advance
 XPH6R30ANB,L1XHQ-3
 MOSFET (N-Channel)
 0
 9
 5
-MyLibraries
+MyLibrary
 Package_TSON-Advance
 TPN1R603PL,L1Q-4
 MOSFET (N-Channel)
 0
 9
 5
-MyLibraries
+MyLibrary
 Package_TSOP6F
 TSOP6F
 MOSFET (N-Channel)
 0
 6
 6
-MyLibraries
+MyLibrary
 Package_UDFN6
 U-DFN2020-6 (Type F) (https://www.diodes.com/assets/Package-Files/U-DFN2020-6-Type-F.pdf) 
 U-DFN2020-6 (Type F)
 0
 8
 6
-MyLibraries
+MyLibrary
 Relay_TRV4-L-12V-Z-F
 
 
 0
 5
 5
-MyLibraries
+MyLibrary
 SW_Rocker_DS-850K-S-ON
 
 
 0
 2
 2
-MyLibraries
+MyLibrary
 SW_Slide_3P_SPDT
 
 
 0
 3
 3
-MyLibraries
+MyLibrary
 SW_Slide_SPDT_White
 
 
 0
 3
 3
-MyLibraries
+MyLibrary
 SW_Tact_LED_ST-12-401FC-G
 
 
 0
 6
 4
-MyLibraries
+MyLibrary
 SW_Toggle_3P_SPDT_5Pin
 
 
 0
 5
 3
-MyLibraries
+MyLibrary
 SW_Toggle_6P_DPDT
 
 
 0
 8
 6
-MyLibraries
+MyLibrary
 ScrewHole_M3
 
 
 0
 0
 0
-MyLibraries
+MyLibrary
 Sensor_IR_TSSP58038_LongPad
 IR Receiver Vishay TSOP-xxxx, MINICAST package, see https://www.vishay.com/docs/82669/tsop32s40f.pdf
 IR Receiver Vishay TSOP-xxxx MINICAST
 0
 3
 3
-MyLibraries
+MyLibrary
 Sensor_Motion_Aktk_BNO055
 
 
 0
 8
 7
-MyLibraries
+MyLibrary
+Sensor_OpticalFlowSensor_PIM453
+
+
+0
+7
+7
+MyLibrary
 VR_JH16K6B102L20KC-H13
 
 
 0
 3
 3
-MyLibraries
+MyLibrary
 VR_PVZ3A
 Potentiometer, horizontal, Bourns 3224J, https://www.bourns.com/docs/Product-Datasheets/3224.pdf
 Potentiometer horizontal Bourns 3224J
 0
 3
 3
-MyLibraries
+MyLibrary
 VR_TSR-3386K
 Potentiometer, vertical, Bourns 3386P, https://www.bourns.com/pdfs/3386.pdf
 Potentiometer vertical Bourns 3386P
 0
 3
 3
-MyLibraries
+MyLibrary
 Voltmeter_Aktk_Small
 
 

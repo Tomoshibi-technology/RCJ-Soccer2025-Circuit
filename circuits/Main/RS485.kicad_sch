@@ -2619,7 +2619,7 @@
     (uuid ede2eaf2-d1ce-431a-9618-576425390812)
   )
 
-  (text "RS485_MD" (at 226.06 218.44 0)
+  (text "RS485_MD/Host" (at 226.06 218.44 0)
     (effects (font (size 2.54 2.54) (thickness 0.254) bold) (justify left bottom))
     (uuid 0541ef69-41f1-45a2-8312-a8232dd5f91c)
   )
@@ -2627,11 +2627,11 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 06ba3a50-9877-489a-a354-bad67b237e45)
   )
-  (text "RS485_UI" (at 226.06 81.28 0)
+  (text "RS485_UI/Host" (at 226.06 81.28 0)
     (effects (font (size 2.54 2.54) (thickness 0.254) bold) (justify left bottom))
     (uuid 0743476e-cd34-42a4-ad43-dee42cce8c3e)
   )
-  (text "RS485_Camera" (at 78.74 81.28 0)
+  (text "RS485_Camera/Host" (at 78.74 81.28 0)
     (effects (font (size 2.54 2.54) (thickness 0.254) bold) (justify left bottom))
     (uuid 0fddf49c-5d41-4d81-9d12-0d6ad7852bf1)
   )
@@ -2639,7 +2639,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 249a9da3-4d37-4cb9-a2b8-bacfb7860ddf)
   )
-  (text "RS485_Bst" (at 78.74 218.44 0)
+  (text "RS485_Bst/Host" (at 78.74 218.44 0)
     (effects (font (size 2.54 2.54) (thickness 0.254) bold) (justify left bottom))
     (uuid 26c687d4-1b2e-4d63-bfe2-73b1daf449a1)
   )
@@ -2703,7 +2703,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid cf5363a7-3b19-4fb2-bd16-09ad9aa2dfd3)
   )
-  (text "RS485_Spare" (at 373.38 81.28 0)
+  (text "RS485_Spare/Host" (at 373.38 81.28 0)
     (effects (font (size 2.54 2.54) (thickness 0.254) bold) (justify left bottom))
     (uuid d173dafd-788b-4ef7-94e0-5b20c9d7d290)
   )
@@ -2985,6 +2985,11 @@
           (reference "R54") (unit 1)
         )
       )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
+          (reference "R54") (unit 1)
+        )
+      )
     )
   )
 
@@ -3007,6 +3012,11 @@
     (instances
       (project "Main"
         (path "/aa9d7141-7530-418f-853d-a56ee68433fb/6071726d-e42e-4d91-8727-3d188cb65d17"
+          (reference "#PWR039") (unit 1)
+        )
+      )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
           (reference "#PWR039") (unit 1)
         )
       )
@@ -3036,6 +3046,11 @@
           (reference "R80") (unit 1)
         )
       )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
+          (reference "R80") (unit 1)
+        )
+      )
     )
   )
 
@@ -3058,6 +3073,11 @@
     (instances
       (project "Main"
         (path "/aa9d7141-7530-418f-853d-a56ee68433fb/6071726d-e42e-4d91-8727-3d188cb65d17"
+          (reference "#PWR0128") (unit 1)
+        )
+      )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
           (reference "#PWR0128") (unit 1)
         )
       )
@@ -3087,6 +3107,11 @@
           (reference "C21") (unit 1)
         )
       )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
+          (reference "C21") (unit 1)
+        )
+      )
     )
   )
 
@@ -3110,6 +3135,11 @@
     (instances
       (project "Main"
         (path "/aa9d7141-7530-418f-853d-a56ee68433fb/6071726d-e42e-4d91-8727-3d188cb65d17"
+          (reference "R44") (unit 1)
+        )
+      )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
           (reference "R44") (unit 1)
         )
       )
@@ -3145,6 +3175,11 @@
           (reference "U7") (unit 1)
         )
       )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
+          (reference "U7") (unit 1)
+        )
+      )
     )
   )
 
@@ -3167,6 +3202,11 @@
     (instances
       (project "Main"
         (path "/aa9d7141-7530-418f-853d-a56ee68433fb/6071726d-e42e-4d91-8727-3d188cb65d17"
+          (reference "#PWR057") (unit 1)
+        )
+      )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
           (reference "#PWR057") (unit 1)
         )
       )
@@ -3196,6 +3236,11 @@
           (reference "R37") (unit 1)
         )
       )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
+          (reference "R37") (unit 1)
+        )
+      )
     )
   )
 
@@ -3219,6 +3264,11 @@
     (instances
       (project "Main"
         (path "/aa9d7141-7530-418f-853d-a56ee68433fb/6071726d-e42e-4d91-8727-3d188cb65d17"
+          (reference "R71") (unit 1)
+        )
+      )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
           (reference "R71") (unit 1)
         )
       )
@@ -3249,6 +3299,11 @@
           (reference "Q5") (unit 1)
         )
       )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
+          (reference "Q5") (unit 1)
+        )
+      )
     )
   )
 
@@ -3271,6 +3326,11 @@
     (instances
       (project "Main"
         (path "/aa9d7141-7530-418f-853d-a56ee68433fb/6071726d-e42e-4d91-8727-3d188cb65d17"
+          (reference "#PWR043") (unit 1)
+        )
+      )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
           (reference "#PWR043") (unit 1)
         )
       )
@@ -3300,6 +3360,11 @@
           (reference "R55") (unit 1)
         )
       )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
+          (reference "R55") (unit 1)
+        )
+      )
     )
   )
 
@@ -3323,6 +3388,11 @@
     (instances
       (project "Main"
         (path "/aa9d7141-7530-418f-853d-a56ee68433fb/6071726d-e42e-4d91-8727-3d188cb65d17"
+          (reference "R43") (unit 1)
+        )
+      )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
           (reference "R43") (unit 1)
         )
       )
@@ -3358,6 +3428,11 @@
           (reference "U6") (unit 1)
         )
       )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
+          (reference "U6") (unit 1)
+        )
+      )
     )
   )
 
@@ -3381,6 +3456,11 @@
     (instances
       (project "Main"
         (path "/aa9d7141-7530-418f-853d-a56ee68433fb/6071726d-e42e-4d91-8727-3d188cb65d17"
+          (reference "R48") (unit 1)
+        )
+      )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
           (reference "R48") (unit 1)
         )
       )
@@ -3410,6 +3490,11 @@
           (reference "R36") (unit 1)
         )
       )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
+          (reference "R36") (unit 1)
+        )
+      )
     )
   )
 
@@ -3433,6 +3518,11 @@
     (instances
       (project "Main"
         (path "/aa9d7141-7530-418f-853d-a56ee68433fb/6071726d-e42e-4d91-8727-3d188cb65d17"
+          (reference "R50") (unit 1)
+        )
+      )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
           (reference "R50") (unit 1)
         )
       )
@@ -3462,6 +3552,11 @@
           (reference "R28") (unit 1)
         )
       )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
+          (reference "R28") (unit 1)
+        )
+      )
     )
   )
 
@@ -3488,6 +3583,11 @@
           (reference "C22") (unit 1)
         )
       )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
+          (reference "C22") (unit 1)
+        )
+      )
     )
   )
 
@@ -3511,6 +3611,11 @@
     (instances
       (project "Main"
         (path "/aa9d7141-7530-418f-853d-a56ee68433fb/6071726d-e42e-4d91-8727-3d188cb65d17"
+          (reference "JP14") (unit 1)
+        )
+      )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
           (reference "JP14") (unit 1)
         )
       )
@@ -3546,6 +3651,11 @@
           (reference "U14") (unit 1)
         )
       )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
+          (reference "U14") (unit 1)
+        )
+      )
     )
   )
 
@@ -3572,6 +3682,11 @@
           (reference "R87") (unit 1)
         )
       )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
+          (reference "R87") (unit 1)
+        )
+      )
     )
   )
 
@@ -3595,6 +3710,11 @@
     (instances
       (project "Main"
         (path "/aa9d7141-7530-418f-853d-a56ee68433fb/6071726d-e42e-4d91-8727-3d188cb65d17"
+          (reference "JP12") (unit 1)
+        )
+      )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
           (reference "JP12") (unit 1)
         )
       )
@@ -3629,6 +3749,11 @@
           (reference "J8") (unit 1)
         )
       )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
+          (reference "J8") (unit 1)
+        )
+      )
     )
   )
 
@@ -3651,6 +3776,11 @@
     (instances
       (project "Main"
         (path "/aa9d7141-7530-418f-853d-a56ee68433fb/6071726d-e42e-4d91-8727-3d188cb65d17"
+          (reference "#PWR072") (unit 1)
+        )
+      )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
           (reference "#PWR072") (unit 1)
         )
       )
@@ -3680,6 +3810,11 @@
           (reference "R89") (unit 1)
         )
       )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
+          (reference "R89") (unit 1)
+        )
+      )
     )
   )
 
@@ -3703,6 +3838,11 @@
     (instances
       (project "Main"
         (path "/aa9d7141-7530-418f-853d-a56ee68433fb/6071726d-e42e-4d91-8727-3d188cb65d17"
+          (reference "R51") (unit 1)
+        )
+      )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
           (reference "R51") (unit 1)
         )
       )
@@ -3732,6 +3872,11 @@
           (reference "R40") (unit 1)
         )
       )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
+          (reference "R40") (unit 1)
+        )
+      )
     )
   )
 
@@ -3755,6 +3900,11 @@
     (instances
       (project "Main"
         (path "/aa9d7141-7530-418f-853d-a56ee68433fb/6071726d-e42e-4d91-8727-3d188cb65d17"
+          (reference "R90") (unit 1)
+        )
+      )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
           (reference "R90") (unit 1)
         )
       )
@@ -3783,6 +3933,11 @@
           (reference "#PWR054") (unit 1)
         )
       )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
+          (reference "#PWR054") (unit 1)
+        )
+      )
     )
   )
 
@@ -3805,6 +3960,11 @@
     (instances
       (project "Main"
         (path "/aa9d7141-7530-418f-853d-a56ee68433fb/6071726d-e42e-4d91-8727-3d188cb65d17"
+          (reference "#PWR049") (unit 1)
+        )
+      )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
           (reference "#PWR049") (unit 1)
         )
       )
@@ -3834,6 +3994,11 @@
           (reference "C16") (unit 1)
         )
       )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
+          (reference "C16") (unit 1)
+        )
+      )
     )
   )
 
@@ -3860,6 +4025,11 @@
           (reference "JP4") (unit 1)
         )
       )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
+          (reference "JP4") (unit 1)
+        )
+      )
     )
   )
 
@@ -3882,6 +4052,11 @@
     (instances
       (project "Main"
         (path "/aa9d7141-7530-418f-853d-a56ee68433fb/6071726d-e42e-4d91-8727-3d188cb65d17"
+          (reference "#PWR058") (unit 1)
+        )
+      )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
           (reference "#PWR058") (unit 1)
         )
       )
@@ -3911,6 +4086,11 @@
           (reference "R32") (unit 1)
         )
       )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
+          (reference "R32") (unit 1)
+        )
+      )
     )
   )
 
@@ -3934,6 +4114,11 @@
     (instances
       (project "Main"
         (path "/aa9d7141-7530-418f-853d-a56ee68433fb/6071726d-e42e-4d91-8727-3d188cb65d17"
+          (reference "R29") (unit 1)
+        )
+      )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
           (reference "R29") (unit 1)
         )
       )
@@ -3963,6 +4148,11 @@
           (reference "JP15") (unit 1)
         )
       )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
+          (reference "JP15") (unit 1)
+        )
+      )
     )
   )
 
@@ -3986,6 +4176,11 @@
     (instances
       (project "Main"
         (path "/aa9d7141-7530-418f-853d-a56ee68433fb/6071726d-e42e-4d91-8727-3d188cb65d17"
+          (reference "JP2") (unit 1)
+        )
+      )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
           (reference "JP2") (unit 1)
         )
       )
@@ -4014,6 +4209,11 @@
           (reference "#PWR075") (unit 1)
         )
       )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
+          (reference "#PWR075") (unit 1)
+        )
+      )
     )
   )
 
@@ -4036,6 +4236,11 @@
     (instances
       (project "Main"
         (path "/aa9d7141-7530-418f-853d-a56ee68433fb/6071726d-e42e-4d91-8727-3d188cb65d17"
+          (reference "#PWR076") (unit 1)
+        )
+      )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
           (reference "#PWR076") (unit 1)
         )
       )
@@ -4064,6 +4269,11 @@
           (reference "#PWR071") (unit 1)
         )
       )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
+          (reference "#PWR071") (unit 1)
+        )
+      )
     )
   )
 
@@ -4086,6 +4296,11 @@
     (instances
       (project "Main"
         (path "/aa9d7141-7530-418f-853d-a56ee68433fb/6071726d-e42e-4d91-8727-3d188cb65d17"
+          (reference "#PWR056") (unit 1)
+        )
+      )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
           (reference "#PWR056") (unit 1)
         )
       )
@@ -4114,6 +4329,11 @@
           (reference "#PWR046") (unit 1)
         )
       )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
+          (reference "#PWR046") (unit 1)
+        )
+      )
     )
   )
 
@@ -4136,6 +4356,11 @@
     (instances
       (project "Main"
         (path "/aa9d7141-7530-418f-853d-a56ee68433fb/6071726d-e42e-4d91-8727-3d188cb65d17"
+          (reference "#PWR055") (unit 1)
+        )
+      )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
           (reference "#PWR055") (unit 1)
         )
       )
@@ -4164,6 +4389,11 @@
           (reference "#PWR048") (unit 1)
         )
       )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
+          (reference "#PWR048") (unit 1)
+        )
+      )
     )
   )
 
@@ -4186,6 +4416,11 @@
     (instances
       (project "Main"
         (path "/aa9d7141-7530-418f-853d-a56ee68433fb/6071726d-e42e-4d91-8727-3d188cb65d17"
+          (reference "#PWR061") (unit 1)
+        )
+      )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
           (reference "#PWR061") (unit 1)
         )
       )
@@ -4212,6 +4447,11 @@
     (instances
       (project "Main"
         (path "/aa9d7141-7530-418f-853d-a56ee68433fb/6071726d-e42e-4d91-8727-3d188cb65d17"
+          (reference "JP9") (unit 1)
+        )
+      )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
           (reference "JP9") (unit 1)
         )
       )
@@ -4246,6 +4486,11 @@
           (reference "J4") (unit 1)
         )
       )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
+          (reference "J4") (unit 1)
+        )
+      )
     )
   )
 
@@ -4269,6 +4514,11 @@
     (instances
       (project "Main"
         (path "/aa9d7141-7530-418f-853d-a56ee68433fb/6071726d-e42e-4d91-8727-3d188cb65d17"
+          (reference "C15") (unit 1)
+        )
+      )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
           (reference "C15") (unit 1)
         )
       )
@@ -4299,6 +4549,11 @@
           (reference "Q9") (unit 1)
         )
       )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
+          (reference "Q9") (unit 1)
+        )
+      )
     )
   )
 
@@ -4322,6 +4577,11 @@
     (instances
       (project "Main"
         (path "/aa9d7141-7530-418f-853d-a56ee68433fb/6071726d-e42e-4d91-8727-3d188cb65d17"
+          (reference "R47") (unit 1)
+        )
+      )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
           (reference "R47") (unit 1)
         )
       )
@@ -4350,6 +4610,11 @@
           (reference "#PWR097") (unit 1)
         )
       )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
+          (reference "#PWR097") (unit 1)
+        )
+      )
     )
   )
 
@@ -4373,6 +4638,11 @@
     (instances
       (project "Main"
         (path "/aa9d7141-7530-418f-853d-a56ee68433fb/6071726d-e42e-4d91-8727-3d188cb65d17"
+          (reference "JP11") (unit 1)
+        )
+      )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
           (reference "JP11") (unit 1)
         )
       )
@@ -4408,6 +4678,11 @@
           (reference "U2") (unit 1)
         )
       )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
+          (reference "U2") (unit 1)
+        )
+      )
     )
   )
 
@@ -4434,6 +4709,11 @@
           (reference "R56") (unit 1)
         )
       )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
+          (reference "R56") (unit 1)
+        )
+      )
     )
   )
 
@@ -4456,6 +4736,11 @@
     (instances
       (project "Main"
         (path "/aa9d7141-7530-418f-853d-a56ee68433fb/6071726d-e42e-4d91-8727-3d188cb65d17"
+          (reference "#PWR067") (unit 1)
+        )
+      )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
           (reference "#PWR067") (unit 1)
         )
       )
@@ -4491,6 +4776,11 @@
           (reference "U4") (unit 1)
         )
       )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
+          (reference "U4") (unit 1)
+        )
+      )
     )
   )
 
@@ -4513,6 +4803,11 @@
     (instances
       (project "Main"
         (path "/aa9d7141-7530-418f-853d-a56ee68433fb/6071726d-e42e-4d91-8727-3d188cb65d17"
+          (reference "#PWR047") (unit 1)
+        )
+      )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
           (reference "#PWR047") (unit 1)
         )
       )
@@ -4542,6 +4837,11 @@
           (reference "R77") (unit 1)
         )
       )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
+          (reference "R77") (unit 1)
+        )
+      )
     )
   )
 
@@ -4568,6 +4868,11 @@
           (reference "JP5") (unit 1)
         )
       )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
+          (reference "JP5") (unit 1)
+        )
+      )
     )
   )
 
@@ -4590,6 +4895,11 @@
     (instances
       (project "Main"
         (path "/aa9d7141-7530-418f-853d-a56ee68433fb/6071726d-e42e-4d91-8727-3d188cb65d17"
+          (reference "#PWR095") (unit 1)
+        )
+      )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
           (reference "#PWR095") (unit 1)
         )
       )
@@ -4619,6 +4929,11 @@
           (reference "R27") (unit 1)
         )
       )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
+          (reference "R27") (unit 1)
+        )
+      )
     )
   )
 
@@ -4645,6 +4960,11 @@
           (reference "JP6") (unit 1)
         )
       )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
+          (reference "JP6") (unit 1)
+        )
+      )
     )
   )
 
@@ -4667,6 +4987,11 @@
     (instances
       (project "Main"
         (path "/aa9d7141-7530-418f-853d-a56ee68433fb/6071726d-e42e-4d91-8727-3d188cb65d17"
+          (reference "#PWR066") (unit 1)
+        )
+      )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
           (reference "#PWR066") (unit 1)
         )
       )
@@ -4696,6 +5021,11 @@
           (reference "R21") (unit 1)
         )
       )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
+          (reference "R21") (unit 1)
+        )
+      )
     )
   )
 
@@ -4718,6 +5048,11 @@
     (instances
       (project "Main"
         (path "/aa9d7141-7530-418f-853d-a56ee68433fb/6071726d-e42e-4d91-8727-3d188cb65d17"
+          (reference "#PWR063") (unit 1)
+        )
+      )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
           (reference "#PWR063") (unit 1)
         )
       )
@@ -4747,6 +5082,11 @@
           (reference "JP10") (unit 1)
         )
       )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
+          (reference "JP10") (unit 1)
+        )
+      )
     )
   )
 
@@ -4772,6 +5112,11 @@
           (reference "#PWR062") (unit 1)
         )
       )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
+          (reference "#PWR062") (unit 1)
+        )
+      )
     )
   )
 
@@ -4794,6 +5139,11 @@
     (instances
       (project "Main"
         (path "/aa9d7141-7530-418f-853d-a56ee68433fb/6071726d-e42e-4d91-8727-3d188cb65d17"
+          (reference "#PWR070") (unit 1)
+        )
+      )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
           (reference "#PWR070") (unit 1)
         )
       )
@@ -4823,6 +5173,11 @@
           (reference "R79") (unit 1)
         )
       )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
+          (reference "R79") (unit 1)
+        )
+      )
     )
   )
 
@@ -4846,6 +5201,11 @@
     (instances
       (project "Main"
         (path "/aa9d7141-7530-418f-853d-a56ee68433fb/6071726d-e42e-4d91-8727-3d188cb65d17"
+          (reference "R88") (unit 1)
+        )
+      )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
           (reference "R88") (unit 1)
         )
       )
@@ -4874,6 +5234,11 @@
           (reference "#PWR068") (unit 1)
         )
       )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
+          (reference "#PWR068") (unit 1)
+        )
+      )
     )
   )
 
@@ -4897,6 +5262,11 @@
     (instances
       (project "Main"
         (path "/aa9d7141-7530-418f-853d-a56ee68433fb/6071726d-e42e-4d91-8727-3d188cb65d17"
+          (reference "R52") (unit 1)
+        )
+      )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
           (reference "R52") (unit 1)
         )
       )
@@ -4932,6 +5302,11 @@
           (reference "U5") (unit 1)
         )
       )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
+          (reference "U5") (unit 1)
+        )
+      )
     )
   )
 
@@ -4963,6 +5338,11 @@
           (reference "J2") (unit 1)
         )
       )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
+          (reference "J2") (unit 1)
+        )
+      )
     )
   )
 
@@ -4986,6 +5366,11 @@
     (instances
       (project "Main"
         (path "/aa9d7141-7530-418f-853d-a56ee68433fb/6071726d-e42e-4d91-8727-3d188cb65d17"
+          (reference "R33") (unit 1)
+        )
+      )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
           (reference "R33") (unit 1)
         )
       )
@@ -5015,6 +5400,11 @@
           (reference "R26") (unit 1)
         )
       )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
+          (reference "R26") (unit 1)
+        )
+      )
     )
   )
 
@@ -5038,6 +5428,11 @@
     (instances
       (project "Main"
         (path "/aa9d7141-7530-418f-853d-a56ee68433fb/6071726d-e42e-4d91-8727-3d188cb65d17"
+          (reference "R53") (unit 1)
+        )
+      )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
           (reference "R53") (unit 1)
         )
       )
@@ -5067,6 +5462,11 @@
           (reference "JP8") (unit 1)
         )
       )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
+          (reference "JP8") (unit 1)
+        )
+      )
     )
   )
 
@@ -5090,6 +5490,11 @@
     (instances
       (project "Main"
         (path "/aa9d7141-7530-418f-853d-a56ee68433fb/6071726d-e42e-4d91-8727-3d188cb65d17"
+          (reference "R78") (unit 1)
+        )
+      )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
           (reference "R78") (unit 1)
         )
       )
@@ -5119,6 +5524,11 @@
           (reference "C13") (unit 1)
         )
       )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
+          (reference "C13") (unit 1)
+        )
+      )
     )
   )
 
@@ -5141,6 +5551,11 @@
     (instances
       (project "Main"
         (path "/aa9d7141-7530-418f-853d-a56ee68433fb/6071726d-e42e-4d91-8727-3d188cb65d17"
+          (reference "#PWR0127") (unit 1)
+        )
+      )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
           (reference "#PWR0127") (unit 1)
         )
       )
@@ -5171,6 +5586,11 @@
           (reference "Q6") (unit 1)
         )
       )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
+          (reference "Q6") (unit 1)
+        )
+      )
     )
   )
 
@@ -5193,6 +5613,11 @@
     (instances
       (project "Main"
         (path "/aa9d7141-7530-418f-853d-a56ee68433fb/6071726d-e42e-4d91-8727-3d188cb65d17"
+          (reference "#PWR050") (unit 1)
+        )
+      )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
           (reference "#PWR050") (unit 1)
         )
       )
@@ -5223,6 +5648,11 @@
           (reference "Q7") (unit 1)
         )
       )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
+          (reference "Q7") (unit 1)
+        )
+      )
     )
   )
 
@@ -5246,6 +5676,11 @@
     (instances
       (project "Main"
         (path "/aa9d7141-7530-418f-853d-a56ee68433fb/6071726d-e42e-4d91-8727-3d188cb65d17"
+          (reference "R30") (unit 1)
+        )
+      )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
           (reference "R30") (unit 1)
         )
       )
@@ -5276,6 +5711,11 @@
           (reference "Q8") (unit 1)
         )
       )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
+          (reference "Q8") (unit 1)
+        )
+      )
     )
   )
 
@@ -5299,6 +5739,11 @@
     (instances
       (project "Main"
         (path "/aa9d7141-7530-418f-853d-a56ee68433fb/6071726d-e42e-4d91-8727-3d188cb65d17"
+          (reference "R31") (unit 1)
+        )
+      )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
           (reference "R31") (unit 1)
         )
       )
@@ -5328,6 +5773,11 @@
           (reference "R42") (unit 1)
         )
       )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
+          (reference "R42") (unit 1)
+        )
+      )
     )
   )
 
@@ -5353,6 +5803,11 @@
           (reference "#PWR052") (unit 1)
         )
       )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
+          (reference "#PWR052") (unit 1)
+        )
+      )
     )
   )
 
@@ -5375,6 +5830,11 @@
     (instances
       (project "Main"
         (path "/aa9d7141-7530-418f-853d-a56ee68433fb/6071726d-e42e-4d91-8727-3d188cb65d17"
+          (reference "#PWR044") (unit 1)
+        )
+      )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
           (reference "#PWR044") (unit 1)
         )
       )
@@ -5404,6 +5864,11 @@
           (reference "C12") (unit 1)
         )
       )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
+          (reference "C12") (unit 1)
+        )
+      )
     )
   )
 
@@ -5427,6 +5892,11 @@
     (instances
       (project "Main"
         (path "/aa9d7141-7530-418f-853d-a56ee68433fb/6071726d-e42e-4d91-8727-3d188cb65d17"
+          (reference "C11") (unit 1)
+        )
+      )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
           (reference "C11") (unit 1)
         )
       )
@@ -5456,6 +5926,11 @@
           (reference "R34") (unit 1)
         )
       )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
+          (reference "R34") (unit 1)
+        )
+      )
     )
   )
 
@@ -5479,6 +5954,11 @@
     (instances
       (project "Main"
         (path "/aa9d7141-7530-418f-853d-a56ee68433fb/6071726d-e42e-4d91-8727-3d188cb65d17"
+          (reference "R39") (unit 1)
+        )
+      )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
           (reference "R39") (unit 1)
         )
       )
@@ -5507,6 +5987,11 @@
           (reference "#PWR051") (unit 1)
         )
       )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
+          (reference "#PWR051") (unit 1)
+        )
+      )
     )
   )
 
@@ -5529,6 +6014,11 @@
     (instances
       (project "Main"
         (path "/aa9d7141-7530-418f-853d-a56ee68433fb/6071726d-e42e-4d91-8727-3d188cb65d17"
+          (reference "#PWR0125") (unit 1)
+        )
+      )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
           (reference "#PWR0125") (unit 1)
         )
       )
@@ -5557,6 +6047,11 @@
           (reference "#PWR065") (unit 1)
         )
       )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
+          (reference "#PWR065") (unit 1)
+        )
+      )
     )
   )
 
@@ -5580,6 +6075,11 @@
     (instances
       (project "Main"
         (path "/aa9d7141-7530-418f-853d-a56ee68433fb/6071726d-e42e-4d91-8727-3d188cb65d17"
+          (reference "JP1") (unit 1)
+        )
+      )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
           (reference "JP1") (unit 1)
         )
       )
@@ -5615,6 +6115,11 @@
           (reference "U8") (unit 1)
         )
       )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
+          (reference "U8") (unit 1)
+        )
+      )
     )
   )
 
@@ -5638,6 +6143,11 @@
     (instances
       (project "Main"
         (path "/aa9d7141-7530-418f-853d-a56ee68433fb/6071726d-e42e-4d91-8727-3d188cb65d17"
+          (reference "R23") (unit 1)
+        )
+      )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
           (reference "R23") (unit 1)
         )
       )
@@ -5667,6 +6177,11 @@
           (reference "R35") (unit 1)
         )
       )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
+          (reference "R35") (unit 1)
+        )
+      )
     )
   )
 
@@ -5693,6 +6208,11 @@
           (reference "C18") (unit 1)
         )
       )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
+          (reference "C18") (unit 1)
+        )
+      )
     )
   )
 
@@ -5715,6 +6235,11 @@
     (instances
       (project "Main"
         (path "/aa9d7141-7530-418f-853d-a56ee68433fb/6071726d-e42e-4d91-8727-3d188cb65d17"
+          (reference "#PWR045") (unit 1)
+        )
+      )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
           (reference "#PWR045") (unit 1)
         )
       )
@@ -5744,6 +6269,11 @@
           (reference "R22") (unit 1)
         )
       )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
+          (reference "R22") (unit 1)
+        )
+      )
     )
   )
 
@@ -5767,6 +6297,11 @@
     (instances
       (project "Main"
         (path "/aa9d7141-7530-418f-853d-a56ee68433fb/6071726d-e42e-4d91-8727-3d188cb65d17"
+          (reference "R38") (unit 1)
+        )
+      )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
           (reference "R38") (unit 1)
         )
       )
@@ -5796,6 +6331,11 @@
           (reference "JP7") (unit 1)
         )
       )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
+          (reference "JP7") (unit 1)
+        )
+      )
     )
   )
 
@@ -5819,6 +6359,11 @@
     (instances
       (project "Main"
         (path "/aa9d7141-7530-418f-853d-a56ee68433fb/6071726d-e42e-4d91-8727-3d188cb65d17"
+          (reference "C17") (unit 1)
+        )
+      )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
           (reference "C17") (unit 1)
         )
       )
@@ -5848,6 +6393,11 @@
           (reference "R25") (unit 1)
         )
       )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
+          (reference "R25") (unit 1)
+        )
+      )
     )
   )
 
@@ -5874,6 +6424,11 @@
           (reference "R46") (unit 1)
         )
       )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
+          (reference "R46") (unit 1)
+        )
+      )
     )
   )
 
@@ -5896,6 +6451,11 @@
     (instances
       (project "Main"
         (path "/aa9d7141-7530-418f-853d-a56ee68433fb/6071726d-e42e-4d91-8727-3d188cb65d17"
+          (reference "#PWR074") (unit 1)
+        )
+      )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
           (reference "#PWR074") (unit 1)
         )
       )
@@ -5925,6 +6485,11 @@
           (reference "R41") (unit 1)
         )
       )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
+          (reference "R41") (unit 1)
+        )
+      )
     )
   )
 
@@ -5950,6 +6515,11 @@
           (reference "#PWR040") (unit 1)
         )
       )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
+          (reference "#PWR040") (unit 1)
+        )
+      )
     )
   )
 
@@ -5972,6 +6542,11 @@
     (instances
       (project "Main"
         (path "/aa9d7141-7530-418f-853d-a56ee68433fb/6071726d-e42e-4d91-8727-3d188cb65d17"
+          (reference "#PWR059") (unit 1)
+        )
+      )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
           (reference "#PWR059") (unit 1)
         )
       )
@@ -6001,6 +6576,11 @@
           (reference "JP3") (unit 1)
         )
       )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
+          (reference "JP3") (unit 1)
+        )
+      )
     )
   )
 
@@ -6023,6 +6603,11 @@
     (instances
       (project "Main"
         (path "/aa9d7141-7530-418f-853d-a56ee68433fb/6071726d-e42e-4d91-8727-3d188cb65d17"
+          (reference "#PWR064") (unit 1)
+        )
+      )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
           (reference "#PWR064") (unit 1)
         )
       )
@@ -6049,6 +6634,11 @@
     (instances
       (project "Main"
         (path "/aa9d7141-7530-418f-853d-a56ee68433fb/6071726d-e42e-4d91-8727-3d188cb65d17"
+          (reference "C14") (unit 1)
+        )
+      )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
           (reference "C14") (unit 1)
         )
       )
@@ -6084,6 +6674,11 @@
           (reference "U9") (unit 1)
         )
       )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
+          (reference "U9") (unit 1)
+        )
+      )
     )
   )
 
@@ -6110,6 +6705,11 @@
           (reference "R45") (unit 1)
         )
       )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
+          (reference "R45") (unit 1)
+        )
+      )
     )
   )
 
@@ -6132,6 +6732,11 @@
     (instances
       (project "Main"
         (path "/aa9d7141-7530-418f-853d-a56ee68433fb/6071726d-e42e-4d91-8727-3d188cb65d17"
+          (reference "#PWR053") (unit 1)
+        )
+      )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
           (reference "#PWR053") (unit 1)
         )
       )
@@ -6167,6 +6772,11 @@
           (reference "U3") (unit 1)
         )
       )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
+          (reference "U3") (unit 1)
+        )
+      )
     )
   )
 
@@ -6198,6 +6808,11 @@
           (reference "J5") (unit 1)
         )
       )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
+          (reference "J5") (unit 1)
+        )
+      )
     )
   )
 
@@ -6223,6 +6838,11 @@
           (reference "#PWR060") (unit 1)
         )
       )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
+          (reference "#PWR060") (unit 1)
+        )
+      )
     )
   )
 
@@ -6245,6 +6865,11 @@
     (instances
       (project "Main"
         (path "/aa9d7141-7530-418f-853d-a56ee68433fb/6071726d-e42e-4d91-8727-3d188cb65d17"
+          (reference "#PWR041") (unit 1)
+        )
+      )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
           (reference "#PWR041") (unit 1)
         )
       )
@@ -6274,6 +6899,11 @@
           (reference "JP13") (unit 1)
         )
       )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
+          (reference "JP13") (unit 1)
+        )
+      )
     )
   )
 
@@ -6296,6 +6926,11 @@
     (instances
       (project "Main"
         (path "/aa9d7141-7530-418f-853d-a56ee68433fb/6071726d-e42e-4d91-8727-3d188cb65d17"
+          (reference "#PWR096") (unit 1)
+        )
+      )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
           (reference "#PWR096") (unit 1)
         )
       )
@@ -6324,6 +6959,11 @@
           (reference "#PWR0126") (unit 1)
         )
       )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
+          (reference "#PWR0126") (unit 1)
+        )
+      )
     )
   )
 
@@ -6346,6 +6986,11 @@
     (instances
       (project "Main"
         (path "/aa9d7141-7530-418f-853d-a56ee68433fb/6071726d-e42e-4d91-8727-3d188cb65d17"
+          (reference "#PWR069") (unit 1)
+        )
+      )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
           (reference "#PWR069") (unit 1)
         )
       )
@@ -6381,6 +7026,11 @@
           (reference "U16") (unit 1)
         )
       )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
+          (reference "U16") (unit 1)
+        )
+      )
     )
   )
 
@@ -6404,6 +7054,11 @@
     (instances
       (project "Main"
         (path "/aa9d7141-7530-418f-853d-a56ee68433fb/6071726d-e42e-4d91-8727-3d188cb65d17"
+          (reference "R49") (unit 1)
+        )
+      )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
           (reference "R49") (unit 1)
         )
       )
@@ -6433,6 +7088,11 @@
           (reference "R24") (unit 1)
         )
       )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
+          (reference "R24") (unit 1)
+        )
+      )
     )
   )
 
@@ -6455,6 +7115,11 @@
     (instances
       (project "Main"
         (path "/aa9d7141-7530-418f-853d-a56ee68433fb/6071726d-e42e-4d91-8727-3d188cb65d17"
+          (reference "#PWR042") (unit 1)
+        )
+      )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
           (reference "#PWR042") (unit 1)
         )
       )
@@ -6489,6 +7154,11 @@
           (reference "J3") (unit 1)
         )
       )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
+          (reference "J3") (unit 1)
+        )
+      )
     )
   )
 
@@ -6514,6 +7184,15 @@
           (reference "#PWR073") (unit 1)
         )
       )
+      (project "RS485"
+        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
+          (reference "#PWR073") (unit 1)
+        )
+      )
     )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
   )
 )

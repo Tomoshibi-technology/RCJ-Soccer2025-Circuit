@@ -1076,7 +1076,7 @@
     (uuid 3b0cea14-3754-4c15-ae6e-6ea935ae8d81)
   )
 
-  (text "RS485" (at 73.66 30.48 0)
+  (text "RS485/Device" (at 73.66 30.48 0)
     (effects (font (size 2.54 2.54) (thickness 0.254) bold) (justify left bottom))
     (uuid 11e3919f-f4e2-4acc-9920-68d86f12bcc8)
   )

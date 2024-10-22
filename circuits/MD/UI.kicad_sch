@@ -594,7 +594,7 @@
     (property "Value" "SW_SPDT" (at 134.62 139.7 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Slide_Switch:3P_SPDT_SlideSwitch" (at 142.24 134.62 0)
+    (property "Footprint" "MyLibrary:SW_Slide_3P_SPDT" (at 142.24 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 142.24 134.62 0)
