@@ -577,6 +577,32 @@
     (uuid eadd0847-54b3-4752-998f-8096a661279e)
   )
 
+  (symbol (lib_id "Device:R") (at 134.62 63.5 270) (mirror x) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 16d3be47-ed1c-42f4-9962-a0678b2b7d05)
+    (property "Reference" "R32" (at 134.62 68.58 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "2k" (at 134.62 66.04 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 134.62 65.278 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 134.62 63.5 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid be10d40f-9597-472f-8a42-4cc063ab5afb))
+    (pin "2" (uuid acfa5c51-c3bf-4071-8cb0-e4b859d44121))
+    (instances
+      (project "Camera"
+        (path "/68f95e6d-55c3-4b47-aa0e-ac1487e4e50c/8e34f9fe-cde5-41c5-aa21-c95fd685b9d1"
+          (reference "R32") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Switch:SW_SPST") (at 134.62 91.44 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3023d7cb-e845-4420-9d70-94fe0db9e5a7)
@@ -649,32 +675,6 @@
       (project "Camera"
         (path "/68f95e6d-55c3-4b47-aa0e-ac1487e4e50c/8e34f9fe-cde5-41c5-aa21-c95fd685b9d1"
           (reference "R34") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 134.62 63.5 270) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 52eda7d9-f0d4-4bfd-8b23-2c2feb457aaa)
-    (property "Reference" "R33" (at 134.62 68.58 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "1k" (at 134.62 66.04 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 134.62 65.278 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 134.62 63.5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid d1b730ff-41f0-4110-bbe8-74b45b34eeb8))
-    (pin "2" (uuid 9ac7d5bf-04a6-4deb-abfc-6197d2481e4b))
-    (instances
-      (project "Camera"
-        (path "/68f95e6d-55c3-4b47-aa0e-ac1487e4e50c/8e34f9fe-cde5-41c5-aa21-c95fd685b9d1"
-          (reference "R33") (unit 1)
         )
       )
     )
@@ -779,32 +779,6 @@
       (project "Camera"
         (path "/68f95e6d-55c3-4b47-aa0e-ac1487e4e50c/8e34f9fe-cde5-41c5-aa21-c95fd685b9d1"
           (reference "SW5") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 134.62 53.34 270) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 90af87ff-422d-4dc7-97b8-9dcd84943868)
-    (property "Reference" "R32" (at 134.62 58.42 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "1k" (at 134.62 55.88 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 134.62 55.118 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 134.62 53.34 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid c959e6ab-c24d-4dcf-bc5b-a9d26cd46eab))
-    (pin "2" (uuid e4533476-5d7b-4fc6-b428-d1559a1c4eb8))
-    (instances
-      (project "Camera"
-        (path "/68f95e6d-55c3-4b47-aa0e-ac1487e4e50c/8e34f9fe-cde5-41c5-aa21-c95fd685b9d1"
-          (reference "R32") (unit 1)
         )
       )
     )
@@ -1035,6 +1009,32 @@
       (project "Camera"
         (path "/68f95e6d-55c3-4b47-aa0e-ac1487e4e50c/8e34f9fe-cde5-41c5-aa21-c95fd685b9d1"
           (reference "SW4") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R") (at 134.62 53.34 270) (mirror x) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid f1e77cc7-5487-4b67-9fe7-14f256adde3f)
+    (property "Reference" "R33" (at 134.62 58.42 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "2k" (at 134.62 55.88 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 134.62 55.118 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 134.62 53.34 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid e11f13df-3d27-4564-b0f3-876b2b7bc305))
+    (pin "2" (uuid b3d55415-0d74-479a-9f07-a0ffa8b9dcdc))
+    (instances
+      (project "Camera"
+        (path "/68f95e6d-55c3-4b47-aa0e-ac1487e4e50c/8e34f9fe-cde5-41c5-aa21-c95fd685b9d1"
+          (reference "R33") (unit 1)
         )
       )
     )

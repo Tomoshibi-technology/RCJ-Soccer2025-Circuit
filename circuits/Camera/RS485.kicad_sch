@@ -1831,27 +1831,22 @@
 
   (symbol (lib_id "Jumper:SolderJumper_2_Open") (at 180.34 139.7 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
-    (uuid cf896c89-b7b1-4a10-bf62-63eb7d0e99de)
+    (uuid ca85ea0a-df42-4279-b7d3-5f18a53c80ad)
     (property "Reference" "JP3" (at 180.34 146.05 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SolderJumper_2_Open" (at 180.34 143.51 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 180.34 139.7 0)
+    (property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" (at 180.34 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 180.34 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid b6dc4f03-8f41-4325-9e75-90d34f6f676a))
-    (pin "1" (uuid f3c0db36-4f37-4a6d-8ac0-8fd3e8ec96eb))
+    (pin "2" (uuid 454b25f9-8536-42be-bccf-a7f57cd643cd))
+    (pin "1" (uuid c97e1a49-5e5d-4f46-9cc3-64b83b645bc5))
     (instances
-      (project "RS485"
-        (path "/37bf7c32-2e7a-419a-b7a7-8c0045b1c536"
-          (reference "JP3") (unit 1)
-        )
-      )
       (project "Camera"
         (path "/68f95e6d-55c3-4b47-aa0e-ac1487e4e50c/e4881d1c-9e9d-45c4-ac15-b5f81dbc6c6f"
           (reference "JP3") (unit 1)

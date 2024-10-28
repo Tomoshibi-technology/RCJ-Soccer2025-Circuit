@@ -667,11 +667,11 @@
 
   (symbol (lib_id "Device:R") (at 144.78 71.12 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
-    (uuid 3fa45df8-7ccf-4fc9-a328-c5e752ed241a)
-    (property "Reference" "R76" (at 144.78 76.2 90)
+    (uuid 2cc84e3e-b358-452d-84ee-7a0ca70b4916)
+    (property "Reference" "R10" (at 144.78 76.2 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "1k" (at 144.78 73.66 90)
+    (property "Value" "2k" (at 144.78 73.66 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 144.78 72.898 90)
@@ -680,12 +680,12 @@
     (property "Datasheet" "~" (at 144.78 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 982d136e-306d-42fa-b396-217cc63db977))
-    (pin "2" (uuid f3bdaf6a-3eb3-4fe1-8035-3c7c9f6658a1))
+    (pin "1" (uuid 7185c762-6821-4263-8ace-2d2f9114e022))
+    (pin "2" (uuid 6babb446-3a26-41d4-9934-9d7edec4ffac))
     (instances
       (project "MD"
         (path "/6b908e7d-66d4-4b9c-9a00-1a873c360635/95721a70-6e46-4ff1-892b-e4afe28b54e0"
-          (reference "R76") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
     )
@@ -821,11 +821,11 @@
 
   (symbol (lib_id "Device:R") (at 144.78 60.96 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
-    (uuid 7eeabde5-347a-4971-a49e-08937a88564e)
-    (property "Reference" "R75" (at 144.78 66.04 90)
+    (uuid 926ab362-b8a9-41d6-9e3b-de1ffa012ff1)
+    (property "Reference" "R54" (at 144.78 66.04 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "1k" (at 144.78 63.5 90)
+    (property "Value" "2k" (at 144.78 63.5 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 144.78 62.738 90)
@@ -834,12 +834,12 @@
     (property "Datasheet" "~" (at 144.78 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 827cb59e-58b2-45b7-8e42-6737d4cbb825))
-    (pin "2" (uuid 3181932b-c3c7-45f6-b301-2d76e010fbad))
+    (pin "1" (uuid fff845ad-7e4c-4e7b-b6d8-520072da9408))
+    (pin "2" (uuid 20c71f56-e4f4-43a7-be97-508c10965854))
     (instances
       (project "MD"
         (path "/6b908e7d-66d4-4b9c-9a00-1a873c360635/95721a70-6e46-4ff1-892b-e4afe28b54e0"
-          (reference "R75") (unit 1)
+          (reference "R54") (unit 1)
         )
       )
     )

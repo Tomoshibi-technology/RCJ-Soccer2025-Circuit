@@ -4002,37 +4002,6 @@
     )
   )
 
-  (symbol (lib_id "Jumper:SolderJumper_2_Open") (at 335.28 193.04 0) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 3692688c-0210-41ba-99f3-ee709affab60)
-    (property "Reference" "JP4" (at 335.28 199.39 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "SolderJumper_2_Open" (at 335.28 196.85 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 335.28 193.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 335.28 193.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "2" (uuid 063b8a56-89b0-48ba-881b-94826203d208))
-    (pin "1" (uuid 221cd7c7-2933-4674-b31c-eee2efca968c))
-    (instances
-      (project "Main"
-        (path "/aa9d7141-7530-418f-853d-a56ee68433fb/6071726d-e42e-4d91-8727-3d188cb65d17"
-          (reference "JP4") (unit 1)
-        )
-      )
-      (project "RS485"
-        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
-          (reference "JP4") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "power:GNDD") (at 248.92 238.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 38808e2d-77d8-4cd2-a4fe-6918a7d85c87)
@@ -4120,37 +4089,6 @@
       (project "RS485"
         (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
           (reference "R29") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Jumper:SolderJumper_2_Open") (at 482.6 193.04 0) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 3c7151c1-2190-457f-aa38-1312b7b6ad23)
-    (property "Reference" "JP15" (at 482.6 199.39 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "SolderJumper_2_Open" (at 482.6 196.85 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 482.6 193.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 482.6 193.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "2" (uuid b84461c0-cf56-4af4-baf7-ce3bcf0e200c))
-    (pin "1" (uuid b47d75ba-7e0e-4cbe-96f0-cf58589d6cee))
-    (instances
-      (project "Main"
-        (path "/aa9d7141-7530-418f-853d-a56ee68433fb/6071726d-e42e-4d91-8727-3d188cb65d17"
-          (reference "JP15") (unit 1)
-        )
-      )
-      (project "RS485"
-        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
-          (reference "JP15") (unit 1)
         )
       )
     )
@@ -5059,32 +4997,27 @@
     )
   )
 
-  (symbol (lib_id "Jumper:SolderJumper_2_Open") (at 335.28 330.2 0) (mirror x) (unit 1)
+  (symbol (lib_id "Jumper:SolderJumper_2_Open") (at 187.96 330.2 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
-    (uuid 7a716587-5a55-4b60-a143-50847f3eca3f)
-    (property "Reference" "JP10" (at 335.28 336.55 0)
+    (uuid 794c1848-f6b0-4c61-9c6d-60f9c22c122d)
+    (property "Reference" "JP4" (at 187.96 336.55 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "SolderJumper_2_Open" (at 335.28 334.01 0)
+    (property "Value" "SolderJumper_2_Open" (at 187.96 334.01 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 335.28 330.2 0)
+    (property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" (at 187.96 330.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 335.28 330.2 0)
+    (property "Datasheet" "~" (at 187.96 330.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid b5bd72fa-dad4-41db-bb6d-28605c07ea5d))
-    (pin "1" (uuid e2393b41-81fa-4f4d-9eac-21abc976a2e9))
+    (pin "2" (uuid 14797c99-3a36-4e21-a9a0-51fbc4d73f87))
+    (pin "1" (uuid f7318209-1351-449c-b687-7cd075c66020))
     (instances
       (project "Main"
         (path "/aa9d7141-7530-418f-853d-a56ee68433fb/6071726d-e42e-4d91-8727-3d188cb65d17"
-          (reference "JP10") (unit 1)
-        )
-      )
-      (project "RS485"
-        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
-          (reference "JP10") (unit 1)
+          (reference "JP4") (unit 1)
         )
       )
     )
@@ -5656,6 +5589,32 @@
     )
   )
 
+  (symbol (lib_id "Jumper:SolderJumper_2_Open") (at 187.96 193.04 0) (mirror x) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 9678f2a5-595a-4498-ab5b-a6adc6002b84)
+    (property "Reference" "JP1" (at 187.96 199.39 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "SolderJumper_2_Open" (at 187.96 196.85 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" (at 187.96 193.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 187.96 193.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "2" (uuid 4c43d7b2-2cfb-4f13-b16a-0d6904f4000d))
+    (pin "1" (uuid 24d523d8-8559-41aa-9a7f-86597ba2f282))
+    (instances
+      (project "Main"
+        (path "/aa9d7141-7530-418f-853d-a56ee68433fb/6071726d-e42e-4d91-8727-3d188cb65d17"
+          (reference "JP1") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:R") (at 104.14 248.92 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9739b2d0-9ba5-4090-8e43-88ad5c6ba8cd)
@@ -5806,6 +5765,32 @@
       (project "RS485"
         (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
           (reference "#PWR052") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Jumper:SolderJumper_2_Open") (at 335.28 193.04 0) (mirror x) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid a10b0cf0-d879-4e47-9729-8412badee1d9)
+    (property "Reference" "JP10" (at 335.28 199.39 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "SolderJumper_2_Open" (at 335.28 196.85 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" (at 335.28 193.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 335.28 193.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "2" (uuid 4b1243a6-ad3b-48f0-aa1a-c54f1b4a77d9))
+    (pin "1" (uuid 355916ad-2110-4599-98c2-9d1d63e8e105))
+    (instances
+      (project "Main"
+        (path "/aa9d7141-7530-418f-853d-a56ee68433fb/6071726d-e42e-4d91-8727-3d188cb65d17"
+          (reference "JP10") (unit 1)
         )
       )
     )
@@ -6055,37 +6040,6 @@
     )
   )
 
-  (symbol (lib_id "Jumper:SolderJumper_2_Open") (at 187.96 193.04 0) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid b1918541-ce4b-4dad-9b45-b2cd871d12d2)
-    (property "Reference" "JP1" (at 187.96 199.39 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "SolderJumper_2_Open" (at 187.96 196.85 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 187.96 193.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 187.96 193.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "2" (uuid 03aac99e-223c-4622-ae89-d16e82ef28ed))
-    (pin "1" (uuid a0faf9a5-51e3-4788-9954-66d9fb8a490d))
-    (instances
-      (project "Main"
-        (path "/aa9d7141-7530-418f-853d-a56ee68433fb/6071726d-e42e-4d91-8727-3d188cb65d17"
-          (reference "JP1") (unit 1)
-        )
-      )
-      (project "RS485"
-        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
-          (reference "JP1") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_name "MAX3485_1") (lib_id "Interface_UART:MAX3485") (at 419.1 114.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b6e7b2f5-32b1-4de1-addc-b5245a0afc0f)
@@ -6303,37 +6257,6 @@
       (project "RS485"
         (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
           (reference "R38") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Jumper:SolderJumper_2_Open") (at 187.96 330.2 0) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid bdb67453-7590-45b2-a9d7-78dda2ff5513)
-    (property "Reference" "JP7" (at 187.96 336.55 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "SolderJumper_2_Open" (at 187.96 334.01 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 187.96 330.2 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 187.96 330.2 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "2" (uuid 05395051-3626-44c0-93c8-39713bbc40fa))
-    (pin "1" (uuid d8dc18dc-954b-4c08-8ee3-c170454f5713))
-    (instances
-      (project "Main"
-        (path "/aa9d7141-7530-418f-853d-a56ee68433fb/6071726d-e42e-4d91-8727-3d188cb65d17"
-          (reference "JP7") (unit 1)
-        )
-      )
-      (project "RS485"
-        (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
-          (reference "JP7") (unit 1)
         )
       )
     )
@@ -6640,6 +6563,32 @@
       (project "RS485"
         (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
           (reference "C14") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Jumper:SolderJumper_2_Open") (at 335.28 330.2 0) (mirror x) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid d52bcee7-78e9-473c-b43b-8e077f042479)
+    (property "Reference" "JP7" (at 335.28 336.55 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "SolderJumper_2_Open" (at 335.28 334.01 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" (at 335.28 330.2 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 335.28 330.2 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "2" (uuid 14dfa79f-3a09-400e-af85-376282c82d38))
+    (pin "1" (uuid 1833f7f7-7de0-4bf0-8484-3ba0d31accb6))
+    (instances
+      (project "Main"
+        (path "/aa9d7141-7530-418f-853d-a56ee68433fb/6071726d-e42e-4d91-8727-3d188cb65d17"
+          (reference "JP7") (unit 1)
         )
       )
     )
@@ -6962,6 +6911,32 @@
       (project "RS485"
         (path "/ab00e146-a23b-4713-9333-4ae75fcdd1c5"
           (reference "#PWR0126") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Jumper:SolderJumper_2_Open") (at 482.6 193.04 0) (mirror x) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid ed83bea3-49fb-49d5-bb07-9e56b39678f3)
+    (property "Reference" "JP15" (at 482.6 199.39 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "SolderJumper_2_Open" (at 482.6 196.85 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" (at 482.6 193.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 482.6 193.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "2" (uuid e3a47f59-e0ff-4cb2-ab4a-f209ce5d40ea))
+    (pin "1" (uuid a06357cc-b0b3-440b-9edc-0ef464da2d37))
+    (instances
+      (project "Main"
+        (path "/aa9d7141-7530-418f-853d-a56ee68433fb/6071726d-e42e-4d91-8727-3d188cb65d17"
+          (reference "JP15") (unit 1)
         )
       )
     )

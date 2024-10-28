@@ -3276,6 +3276,32 @@
     )
   )
 
+  (symbol (lib_id "Device:R") (at 314.96 208.28 270) (mirror x) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 02f5a2cb-ebfe-43f9-8570-b1f3c217614c)
+    (property "Reference" "R20" (at 314.96 213.36 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "2k" (at 314.96 210.82 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 314.96 210.058 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 314.96 208.28 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 7c05edb6-72cf-42ce-901b-7ed23933042b))
+    (pin "2" (uuid 27bf6f34-21f2-45e6-8cc0-8a1eea104299))
+    (instances
+      (project "Main"
+        (path "/aa9d7141-7530-418f-853d-a56ee68433fb/a9430107-cf2a-4437-9d5a-ed3d69145a18"
+          (reference "R20") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:R") (at 289.56 60.96 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0378c67c-b0df-49b7-aade-48b892470b24)
@@ -4690,6 +4716,32 @@
     )
   )
 
+  (symbol (lib_id "Device:R") (at 314.96 195.58 270) (mirror x) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 74f25c9a-f3e7-4361-b381-8f0783ce842c)
+    (property "Reference" "R19" (at 314.96 200.66 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "2k" (at 314.96 198.12 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 314.96 197.358 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 314.96 195.58 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid ff356572-31bc-4ae2-87aa-af5061a8be24))
+    (pin "2" (uuid 20d57ffa-2e1d-4bcf-9ba4-ee131d7c9adc))
+    (instances
+      (project "Main"
+        (path "/aa9d7141-7530-418f-853d-a56ee68433fb/a9430107-cf2a-4437-9d5a-ed3d69145a18"
+          (reference "R19") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:R") (at 149.86 228.6 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 76d0c07c-be9e-4c1a-ada7-4039f55b739a)
@@ -5044,32 +5096,6 @@
       (project "Main"
         (path "/aa9d7141-7530-418f-853d-a56ee68433fb/a9430107-cf2a-4437-9d5a-ed3d69145a18"
           (reference "J12") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 314.96 195.58 270) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 91c7cda2-19b9-45f9-b0ab-02cc6f039943)
-    (property "Reference" "R97" (at 314.96 200.66 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "1k" (at 314.96 198.12 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 314.96 197.358 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 314.96 195.58 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 0404b02e-0c51-4b66-9e88-8382505b1eab))
-    (pin "2" (uuid aed9b2ec-7f45-4143-ad42-ba4453a3857c))
-    (instances
-      (project "Main"
-        (path "/aa9d7141-7530-418f-853d-a56ee68433fb/a9430107-cf2a-4437-9d5a-ed3d69145a18"
-          (reference "R97") (unit 1)
         )
       )
     )
@@ -5799,32 +5825,6 @@
     )
   )
 
-  (symbol (lib_id "Device:R") (at 314.96 220.98 270) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid c9a63ce8-d7d6-4d10-9d69-e2a982307e0e)
-    (property "Reference" "R20" (at 314.96 226.06 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "1k" (at 314.96 223.52 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 314.96 222.758 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 314.96 220.98 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 0c0f8d6d-9070-4f1b-9f81-77db31952599))
-    (pin "2" (uuid f0f56215-0bc2-4d1c-9107-7ec36743b19a))
-    (instances
-      (project "Main"
-        (path "/aa9d7141-7530-418f-853d-a56ee68433fb/a9430107-cf2a-4437-9d5a-ed3d69145a18"
-          (reference "R20") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:LED") (at 325.12 220.98 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cd3e7d51-295b-4dd4-9c91-58f22a5b52cc)
@@ -6027,32 +6027,6 @@
       (project "Main"
         (path "/aa9d7141-7530-418f-853d-a56ee68433fb/a9430107-cf2a-4437-9d5a-ed3d69145a18"
           (reference "R14") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 314.96 208.28 270) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid d49c66e2-718b-42c0-be88-651befb90b0a)
-    (property "Reference" "R19" (at 314.96 213.36 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "1k" (at 314.96 210.82 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 314.96 210.058 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 314.96 208.28 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid e53763db-acbb-48b1-9c91-7853fea0ef13))
-    (pin "2" (uuid 450fe8d6-6541-46f3-9bdf-4be7d86890a7))
-    (instances
-      (project "Main"
-        (path "/aa9d7141-7530-418f-853d-a56ee68433fb/a9430107-cf2a-4437-9d5a-ed3d69145a18"
-          (reference "R19") (unit 1)
         )
       )
     )
@@ -6261,6 +6235,32 @@
       (project "Main"
         (path "/aa9d7141-7530-418f-853d-a56ee68433fb/a9430107-cf2a-4437-9d5a-ed3d69145a18"
           (reference "C23") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R") (at 314.96 220.98 270) (mirror x) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid ecc875d3-36b3-4e80-8801-ee11eb8ea563)
+    (property "Reference" "R65" (at 314.96 226.06 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "2k" (at 314.96 223.52 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 314.96 222.758 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 314.96 220.98 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid c9755851-0906-4862-90cc-f7d771ed63e1))
+    (pin "2" (uuid 735479e1-6e51-451d-b1ac-de1aff941011))
+    (instances
+      (project "Main"
+        (path "/aa9d7141-7530-418f-853d-a56ee68433fb/a9430107-cf2a-4437-9d5a-ed3d69145a18"
+          (reference "R65") (unit 1)
         )
       )
     )
