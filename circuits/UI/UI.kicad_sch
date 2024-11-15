@@ -1248,7 +1248,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 3a40bbf5-aeac-4b33-8c59-28f107e35860)
   )
-  (text "オシレーターの周波数とフットプリント" (at 104.14 38.1 0)
+  (text "オシレーターの周波数とフットプリント\n電解コンの耐圧注意" (at 104.14 38.1 0)
     (effects (font (size 5.56 5.56)) (justify left bottom))
     (uuid 3b1402de-4463-4688-bd1d-7d5b2dc99fb7)
   )

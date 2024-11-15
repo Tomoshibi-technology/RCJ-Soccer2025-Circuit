@@ -1707,7 +1707,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 06de3134-e8cc-43d1-ac4b-f069a8b28e93)
   )
-  (text "マイコン側のラベルと階層シート側のラベルをそれぞれ対応するように書き換える" (at 17.78 -5.08 0)
+  (text "マイコン側のラベルと階層シート側のラベルをそれぞれ対応するように書き換える\n電解コンの耐圧注意" (at 17.78 -5.08 0)
     (effects (font (size 5.56 5.56)) (justify left bottom))
     (uuid 3cc483f2-aadc-42cb-b0d7-a5c214fe09f1)
   )

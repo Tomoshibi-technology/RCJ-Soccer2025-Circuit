@@ -1975,6 +1975,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 0219f96e-8074-4117-90cf-819aefb579b5)
   )
+  (text "電源スイッチ　耐圧大丈夫？" (at 76.2 30.48 0)
+    (effects (font (size 5.56 5.56)) (justify left bottom))
+    (uuid 03613611-1c42-40b6-9ecd-0876bc010a3a)
+  )
   (text "マイコンなどの起動管理システム\nダイオードなど耐圧確認\nBOOTのプルダウンとかなんだとか\nSWDピンのリセット時の挙動だとか\nG473のデータシートを見る"
     (at 72.39 17.78 0)
     (effects (font (size 5.56 5.56)) (justify left bottom))
