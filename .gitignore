@@ -1,2 +1,10 @@
 .DS_Store
 .metadata
+
+*.settings
+
+#KiCAD
+*-backups
+*.lck
+fp-info-cache
+*.bak
